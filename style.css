@@ -1,0 +1,49 @@
+
+@keyframes linespread {
+    0% {width: 0%}
+    33% {width:0%}
+    90% {width: 80%}
+    100% {width: 80%}
+}
+
+@keyframes text-appear {
+    0% {opacity: 0;}
+    100% {opacity: 98%;}
+}
+
+html, body {
+    height : 100%;
+    margin : 0;
+    background-image: radial-gradient(rgb(78, 119, 172),rgb(62, 151, 211));
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height : 100%;
+    width : 100%;
+    cursor: default
+}
+
+.feature {
+    color: #ffd3ff;
+    font: italic  6em "Fira Sans", serif;
+    background: none !important;
+    animation-name: text-appear;
+    animation-duration: 4s;
+    text-shadow: 0px 1px 5px #F0DCCA ;
+    text-align: center;
+
+}
+
+.box {
+    height : 1px;
+    animation-name: linespread;
+    animation-duration: 3.8s;
+    width : 80%;
+    background-color: #f87df8;
+    box-shadow: 0px 1px 5px #F0DCCA ;
+    margin : 0px
+}
