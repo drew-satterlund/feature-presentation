@@ -34,7 +34,7 @@ html, body {
 
 .feature {
     color: #ffd3ff;
-    font: italic  6em "Fira Sans", serif;
+    font: italic  6em "Times New Roman", serif;
     background: none !important;
     animation-name: text-appear;
     animation-duration: 4s;
@@ -48,6 +48,7 @@ html, body {
     font: italic  3.5em "Fira Sans", serif;
     animation-name: text-appear-subtitle;
     animation-duration: 5s;
+    font-family: 'Beau Rivage', cursive;
 }
 
 .box {
