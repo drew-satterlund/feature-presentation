@@ -2,13 +2,18 @@
 @keyframes linespread {
     0% {width: 0%}
     33% {width:0%}
-    90% {width: 80%}
-    100% {width: 80%}
+    90% {width: 75%}
+    100% {width: 75%}
 }
 
 @keyframes text-appear {
     0% {opacity: 0;}
     100% {opacity: 98%;}
+}
+    @keyframes text-appear-subtitle {
+        0% {opacity: 0}
+        50% {opacity: 0}
+        100% {opacity: 98%;}
 }
 
 html, body {
@@ -35,15 +40,22 @@ html, body {
     animation-duration: 4s;
     text-shadow: 0px 1px 5px #F0DCCA ;
     text-align: center;
+    margin: 0px;
 
+}
+
+#subtitle {
+    font: italic  3.5em "Fira Sans", serif;
+    animation-name: text-appear-subtitle;
+    animation-duration: 5s;
 }
 
 .box {
     height : 1px;
     animation-name: linespread;
     animation-duration: 3.8s;
-    width : 80%;
+    width : 75%;
     background-color: #f87df8;
     box-shadow: 0px 1px 5px #F0DCCA ;
-    margin : 0px
+    margin : 10px
 }
