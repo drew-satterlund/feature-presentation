@@ -19,21 +19,20 @@
 html, body {
     height : 100%;
     margin : 0;
+    min-width: fit-content;
     background-image: radial-gradient(rgb(78, 119, 172),rgb(62, 151, 211));
 }
 
-.name-container {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height : 100%;
     width : 100%;
-    cursor: default;
-    overflow: auto; /* Add overflow property for scrollability */
+    cursor: default; 
     padding: 0px 20px; /* Add some padding to create space around the content */
     box-sizing: border-box;
-    min-width: fit-content;
 }
 
 .feature {
@@ -45,7 +44,8 @@ html, body {
     text-shadow: 0px 1px 5px #F0DCCA ;
     text-align: center;
     margin: 0px;
-    padding: 5px 0px
+    padding: 5px 0px;
+    margin-right: -1px; /* Counteract the slight movement */
 
 }
 
@@ -82,7 +82,7 @@ html, body {
     width: auto;
     border: none;
     border-radius: 10%;
-    box-shadow: 0px 2px 6px #F0DCCA ;
+    box-shadow: 0px 1px 10px #352313 ;
 }
 
 .nav-bar {
@@ -104,5 +104,12 @@ html, body {
 }
 
 .links li {
-    padding: 10px;
+    padding: 0px 30px;
+    text-shadow: 0px 1px 5px #F0DCCA;
+    white-space: nowrap;
+    background: none;
+}
+
+li:hover {
+    visibility: none;
 }

@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 </head>
 <body>      
-    <div class="content">
-        <div class="name-container">
+    <div class="content container-fluid">
+        <div class="container">
             <p class="box" style="visibility: hidden"></p>
             <p class="box" style="visibility: hidden"></p>
             <p class="box"></p>
@@ -23,18 +24,19 @@
             <p class="box"></p>
             <p class="box" style="visibility: hidden">
             </p>
+            <div class="slideshow-container">
+                <img id="splash-image" class="slides" src="./images/splash-image.jpg"></img>
+            </div>
+            <p class="box"></p>
+            <nav class="nav-bar">
+                <ul class="links">
+                    <li>Background</li>
+                    <li>Portfolio</li>
+                    <li>Music</li>
+                    <li>Code Of Honor</li>
+                </ul>
+            </nav>
         </div>
-        <div class="slideshow-container">
-            <img id="splash-image" class="slides" src="./images/splash-image.jpg"></img>
-        </div>
-        <nav class="nav-bar">
-            <ul class="links">
-                <li>Background</li>
-                <li>Portfolio</li>
-                <li>Music</li>
-                <li>Code Of Honor</li>
-            </ul>
-        </nav>
     </div>
 </body>
 </html>
