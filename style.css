@@ -34,7 +34,7 @@ html, body {
 
 .feature {
     color: #ffd3ff;
-    font: italic  6em "Times New Roman", serif;
+    font:   6em "Times New Roman", serif;
     background: none !important;
     animation-name: text-appear;
     animation-duration: 4s;
@@ -56,7 +56,7 @@ html, body {
     animation-name: linespread;
     animation-duration: 3.8s;
     width : 75%;
-    background-color: #f87df8;
+    background-image: linear-gradient(to right, #63458A, #f87df8, #63458A);
     box-shadow: 0px 1px 5px #F0DCCA ;
     margin : 10px
 }
